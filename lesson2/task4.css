@@ -1,0 +1,47 @@
+.list1 {
+  color:orange;
+}
+.list2 {
+  color: blue;
+}
+.ogorod1 {
+  color: gray;
+}
+
+.ogorod2 {
+  color: red;
+}
+
+.sklad1 {
+  color: green;
+}
+
+.sklad2 {
+  color: red;
+}
+
+table   {
+            border-collapse: collapse; width: 500px;
+}
+td { 
+  border: 3px double #000; 
+  height: 28px;
+  text-align: center;
+  background-color: green;
+  font-size: 18px;
+  font-weight: bold;
+  font-weight: normal;
+
+}
+th { 
+  border: 3px double #000; 
+  height: 28px;
+  font-size: 18px;
+  font-weight: bold;
+  font-weight: normal;
+}
+.name {
+  background-color:white;
+  text-align:left;
+  color:orange;
+}
