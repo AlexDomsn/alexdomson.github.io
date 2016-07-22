@@ -1,0 +1,64 @@
+.red {
+background-color: red;
+color: white;
+}
+
+#red:checked ~ .red {
+display: none;
+}
+
+#red {
+display: none;
+}
+
+#red ~ label[for=red] {
+color: red;
+text-decoration: underline;
+}
+
+#red:checked ~ label[for=red] {
+color: gray;
+}
+
+.green {
+background-color: green;
+color: white;
+}
+
+#green:checked ~ .green {
+display: none;
+}
+
+#green {
+display: none;
+}
+
+#green ~ label[for=green] {
+color: green;
+text-decoration: underline;
+}
+
+#green:checked ~ label[for=green] {
+color: gray;
+}
+.blue {
+background-color: blue;
+color: white;
+}
+
+#blue:checked ~ .blue {
+display: none;
+}
+
+#blue {
+display: none;
+}
+
+#blue ~ label[for=blue] {
+color: blue;
+text-decoration: underline;
+}
+
+#blue:checked ~ label[for=blue] {
+color: gray;
+}

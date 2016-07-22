@@ -1,47 +1,43 @@
-.list1 {
+#allotment h2 {
   color:orange;
 }
-.list2 {
+#warehouse h2 {
   color: blue;
 }
-.ogorod1 {
+#allotment .fruits-list {
   color: gray;
 }
 
-.ogorod2 {
+#allotment .vegetables-list {
   color: red;
 }
 
-.sklad1 {
+#warehouse .fruits-list {
   color: green;
 }
 
-.sklad2 {
+#warehouse .vegetables-list {
   color: red;
 }
 
-table   {
-            border-collapse: collapse; width: 500px;
+thead {
+  background-color: white;
 }
-td { 
-  border: 3px double #000; 
-  height: 28px;
-  text-align: center;
-  background-color: green;
-  font-size: 18px;
-  font-weight: bold;
-  font-weight: normal;
-
+table {
+  
+  border: 1px double black;
+  text-align:center;
+  font-weight: 700;
 }
-th { 
-  border: 3px double #000; 
-  height: 28px;
-  font-size: 18px;
-  font-weight: bold;
-  font-weight: normal;
+table td {
+  border: 1px solid black;
 }
-.name {
-  background-color:white;
-  text-align:left;
+tbody {
+  background-color:green;
+  color:white;
+}
+tbody tr td:first-child {
+  background-color: white;
+  text-align: left;
   color:orange;
 }
