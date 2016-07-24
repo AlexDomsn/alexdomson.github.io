@@ -1,0 +1,83 @@
+body {margin:0;}
+
+ul {
+list-style: none;
+margin-top: 0 auto;
+}
+a {
+text-decoration: none;
+font-family: 'Economica';
+color:#eeeeee;
+}
+
+nav {
+background: #1aa4ff;
+width: 100%;
+position: relative;
+
+}
+
+div {
+display: block;
+width: 900px;
+margin: 0 auto 30px;
+}
+
+.Task1 ul {
+padding: 0;
+margin: auto;
+background: #1aa4ff;
+
+/*overflow: hidden;*/
+}
+
+.Task1 > ul:after {
+clear: both;
+content: '';
+display: block;
+}
+
+.Task1 li {
+display: inline-block;
+float:left;
+}
+
+.Task1 li > ul {
+display: none;
+position: absolute;
+top: 100%;
+}
+
+.Task1 li > ul > li {
+
+}
+
+.Task1 li:hover > ul {
+display: block;
+width: 100%;
+left: 0;
+background-color: #eeeeee;
+color:#aa8899;
+}
+
+.Task1 .more {
+float: right;
+}
+
+.Task1 a {
+padding:10px;
+display: block;
+font-weight: bold;
+background: rgba(26, 164, 255, .3);
+}
+
+.Task1  a:hover {background: #eeeeee; color:#a0a0a0;}
+
+.podmenu a{
+padding:10px;
+display: block;
+font-weight: bold;
+color:#a0a0a0;
+background: rgba(238, 238, 238, .3);
+
+}

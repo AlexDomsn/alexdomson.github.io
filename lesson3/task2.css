@@ -7,7 +7,6 @@ ul {
 a {
   text-decoration: none;
   font-family: 'Economica';
-  transform: rotate(90deg);
 }
 
 nav {
@@ -22,7 +21,7 @@ div {
   margin: 0 auto 30px;
 }
 
-.Task1, .Task2 ul {
+.Task1 ul {
   padding: 0;
   margin: auto;
   background: #a64dff;
@@ -34,8 +33,7 @@ div {
   display: inline-block;
   float:left;
 }
-.Task2 {
-  display: inline-block;
+.Task1 .more {
   float:right;
 }
 
