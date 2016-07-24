@@ -1,0 +1,51 @@
+body {margin:0;}
+
+ul {
+  list-style: none; 
+  margin-top: 0 auto;
+}
+a {
+  text-decoration: none;
+  font-family: 'Economica';
+  transform: rotate(90deg);
+}
+
+nav {
+  background:#a64dff;
+  width: 100%;
+
+}
+
+div {
+  display: block;
+  width: 900px;
+  margin: 0 auto 30px;
+}
+
+.Task1, .Task2 ul {
+  padding: 0;
+  margin: auto;
+  background: #a64dff;
+  overflow: hidden;
+  
+}
+
+.Task1 li {
+  display: inline-block;
+  float:left;
+}
+.Task2 {
+  display: inline-block;
+  float:right;
+}
+
+
+.Task1 a {
+  padding:10px;
+  display: block;
+  color: #ffffff;
+  font-weight: bold;
+  transform: rotate(180deg);
+  background: rgba(186, 215, 139, .3);
+}
+.Task1 a:hover {background: #eeeeee; color:black;}
