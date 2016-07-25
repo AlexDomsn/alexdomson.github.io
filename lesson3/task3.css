@@ -1,0 +1,54 @@
+body {
+  margin:0;
+  padding:0;
+}
+
+ul {
+  list-style: none; 
+  margin-left: 0 ;
+}
+a {
+  text-decoration: none;
+  font-family: 'Economica';
+}
+
+div {
+  display: block;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.pager li {
+  display: inline-block;
+  font-size: 11px;
+  margin: 5px;
+  width: auto;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+li:nth-child(n+3):nth-child(-n+11){
+  border: 2px solid;
+  border-color: rgba(204, 204, 204, .7);
+  border-radius: 4px;
+}
+
+.pager a {
+  padding:5px;
+  display: block;
+  color: rgba(115, 19, 179, 1);
+  font-weight: bold;
+}
+
+.pager a:hover {background:rgba(115, 19, 179, 1); color:white; }
+
+.textlink2:after {
+  content: ">>";
+  color:rgba(102, 0, 102, 1);
+} 
+.textlink2:hover:after {background:rgba(115, 19, 179, 1); color:white;}
+  
+.textlink:before {
+  content: "<<";
+  color:rgba(115, 19, 179, 1);
+} 
+.textlink:hover:before {background:rgba(115, 19, 179, 1); color:white;}rgba(115, 19, 179, 1);
