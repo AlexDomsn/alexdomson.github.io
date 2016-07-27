@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bs3ex</title>
+    <!— Latest compiled and minified CSS & JS —>
+    <link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap..">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jq.."></script>
+
+    <!— Latest compiled and minified JS —>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap..."></script>
+
+    <style>
+        .block {
+            background-image: url(http://images.digopaul.com/wp-content/uploads/related..);
+            color: white;
+            width: 50%;
+            height: 300px;
+            margin: auto;
+            position: relative;
+        }
+        .block:hover:after {
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: blue;
+            opacity: .3;
+        }
+
+        .btn-pink {
+            color: black;
+            background-color: pink;
+            border-color: green;
+        }
+
+        .bl {
+            /*background-color: #000099;*/
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 768px) {
+            /* XS - mobile */
+            .block {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row bl text-center">
+        <div class="col-lg-4 col-xs-12">
+            <div class="block">
+                First
+                <a href="#" class="btn btn-pink">Отправить</a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-xs-12">
+            <div class="block">Second</div>
+        </div>
+        <div class="col-lg-4 col-xs-12">
+            <div class="block">Third</div>
+        </div>
+    </div>
+    <div class="bl row">
+        <div class="col-md-6 col-md-offset-3">
+            <form action="#" method="POST" role="form">
+                <legend>Форма№1</legend>
+
+                <div class="form-group">
+                    <label for="">Имя</label>
+                    <input type="text" class="form-control" name="" id="" placeholder="Input...">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Имя</label>
+                    <input type="text" class="form-control" name="" id="" placeholder="Input...">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Имя</label>
+                    <input type="text" class="form-control" name="" id="" placeholder="Input...">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Отправить</button>
+            </form>
+        </div>
+
+    </div>
+    <div class="bl row">
+        <div>
+
+            <!— Nav tabs —>
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+                <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+                <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+                <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+            </ul>
+
+            <!— Tab panes —>
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="home">first tab</div>
+                <div role="tabpanel" class="tab-pane" id="profile">sec tab</div>
+                <div role="tabpanel" class="tab-pane" id="messages">thr tab</div>
+                <div role="tabpanel" class="tab-pane" id="settings">frt tab</div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
+</body>
+</html>
