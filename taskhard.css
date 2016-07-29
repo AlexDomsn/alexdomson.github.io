@@ -1,0 +1,277 @@
+body {margin:0;}
+/*Хедер*/
+.tiomenuspisok ul {
+  list-style: none; 
+  margin-top: 0 auto;
+
+  
+}
+.tiomenuspisok a {
+  text-decoration: none;
+  font-family: '';
+}
+
+header {
+  background: rgba(41, 128, 185, 0.5);
+  width: 100%;
+  position:fixed;
+  z-index: 999;
+
+}
+
+#topmenu nav {
+  display: block;
+  width: 1500px;
+  margin: 0 auto 0;
+
+  
+}
+
+#topmenu ul {
+  padding: 0;
+  margin: auto;
+  /*background: rgba(63, 107, 134, 0);*/
+  overflow: hidden;
+
+}
+
+#topmenu li {
+  display: inline-block;
+  float:right;
+  
+}
+#topmenu .gotop {
+  float:left;
+  margin-left:100px;
+}
+
+
+#topmenu a {
+  padding:4px 10px 3px 10px;
+  display: block;
+  font-size:18px;
+  color: #ffffff;
+  font-weight: bold;
+  /*background: rgba(63, 107, 134, 0);*/
+
+  line-height: 100px;
+  vertical-align: middle;
+
+}
+
+#topmenu ul:last-child {
+  margin-right:110px;
+}
+
+#topmenu a:hover {
+    background: #eeeeee;
+    color:green;
+    text-decoration: none;}
+
+/*Первый блок страницы - Домашняя страница*/
+
+/*#homepage div{
+  /*height: 610px;*/
+  /*background-color: black;*/
+
+/*Шестиугольник*/
+#hexagon {
+	width: 100px;
+	height: 55px;
+	background: white;
+	position: relative;
+  margin: 90px auto ;
+}
+#hexagon:before {
+	content: "";
+	position: absolute;
+	top: -25px; 
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 25px solid white;
+}
+#hexagon:after {
+	content: "";
+	position: absolute;
+	bottom: -25px; 
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 25px solid white;
+}
+
+/*текст в первом блоке - Домашняя Страница*/
+#homepage h1 {
+  text-align:center;
+  margin-top:-35px;
+  color:white;
+  font-size:48px;
+  font-weight:bold;
+}
+#homepage p {
+  text-align:center;
+  color:gray;
+  width:500px;
+  margin: auto;
+  margin-bottom:40px;
+}
+
+/*кнопка в первом блоке*/
+.knowmore {
+  border:2px solid white;
+  border-radius:10px;
+  text-decoration: none;
+  font-family: '';
+  font-size: 18px;
+  color:white;
+  padding:7px 30px;
+  
+}
+
+
+/*второй блок страницы - Сервис*/
+
+#service {
+  /*background: white;*/
+  height:400px;
+  position:relative;
+}
+h2 {
+  text-align:center;
+  color:rgb(81, 130, 162);
+  margin:30px auto;
+  position:absolute;
+  font-size: 28px;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+}
+hr {
+  /*background: black;*/
+  height:1px;
+  position:absolute; 
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  margin: 65px auto;
+  width:55px;
+}
+
+/*.serviceicon1 h3 {
+  text-align:center;
+  color:rgb(81, 130, 162);
+  margin:200px auto;
+  position:absolute;
+  font-size: 36px;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+}
+
+.serviceicon1 p{
+  text-align:center;
+  color:rgb(81, 130, 162);
+  margin:260px auto;
+  position:absolute;
+  font-size: 10px;
+  width:165px;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+}
+
+.serviceicon2 h3 {
+  text-align:center;
+  color:rgb(81, 130, 162);
+  margin:200px auto;
+  position:absolute;
+  font-size: 36px;
+
+}
+
+.serviceicon2 p{
+  text-align:center;
+  color:rgb(81, 130, 162);
+  margin:260px auto;
+  position:absolute;
+  font-size: 10px;
+  width:165px;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+}
+
+.serviceicon3 h3 {
+  text-align:center;
+  color:rgb(81, 130, 162);
+  margin:200px auto;
+  position:absolute;
+  font-size: 36px;
+
+}
+
+.serviceicon3 p{
+  text-align:center;
+  color:rgb(81, 130, 162);
+  margin:260px auto;
+  position:absolute;
+  font-size: 10px;
+  width:165px;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+}
+*/
+#service h3 {
+  text-align:center;
+  color:rgb(81, 130, 162);
+  margin:200px auto;
+  position:absolute;
+  font-size: 36px;
+}
+#servide p {
+  text-align:center;
+  color:rgb(81, 130, 162);
+  margin:260px auto;
+  position:absolute;
+  font-size: 10px;
+  width:165px;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+}
+
+.serviceicon1, .serviceicon2 , .serviceicon3  {
+  font-size: 8px;
+  float:left;
+  margin:100px 1%;
+  position:relative;
+  background: blue;
+  height:300px;
+  width:200px;
+}
+/*третий блок страницы - Портфолио*/
+/*четвертый блок страницы - Команда*/
+/*пятый блок страницы - Офисы*/
+/*шестой блок страницы - Клиенты*/
+/*седьмой блок страницы - Контакты*/
+/*футер*/
+
+
+
+/*div { 
+background: black;
+height: 300px;
+}
