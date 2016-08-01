@@ -1,0 +1,142 @@
+body {margin:0;}
+.section {
+    /*border: 1px solid red;*/
+    background-image: url('bgtask2.png');
+    background-repeat: repeat-x;
+    height: 315px;
+    box-shadow: 2px 2px #0f0f0f;
+    position: relative;
+}
+
+.section div {
+    max-width:1025px;
+    height:180px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.nameblock {
+    height:35px;
+}
+.content h2 {
+    text-align:center;
+    font-size:34px;
+    font-weight:500;
+    color: #2e679a;
+    margin:-5px;
+}
+.content span {
+    text-align:center;
+    color:#ee8129;
+}
+
+.nameblock {
+    max-width:1025px;
+    height:100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 135px auto 0;
+}
+
+
+.nameblock ul {
+    list-style-type: none;
+    height:100px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 135px auto 0;
+
+}
+.nameblock li {
+    display: inline-block;
+    color:white;
+    border:1px solid white;
+    width:50%;
+    height:100px;
+    margin: -1px -2px;
+}
+
+.nameblock li:nth-child(1) {
+    margin-left:-20px;
+}
+
+
+
+
+.cont_team {
+    position: relative;
+}
+
+.team_section li {
+    list-style: none;
+}
+
+.team_section li div.team_item{
+    display:block;
+    height:100%;
+    width: 340px;
+    margin-left: 145px;
+    margin-top: 45px;
+    position:absolute;
+    overflow:hidden;
+    opacity:0;
+    filter:alpha(opacity=0);
+    transition:all .3s ease-in-out;
+}
+
+.team_section li:hover div.team_item {
+    opacity: 1;
+    filter: alpha(opacity=80);
+}
+
+.team_item p {
+    color:black;
+    font-size: 9px;
+}
+
+.block {
+    background: #f7f7f7;
+    position: relative;
+    width: 365px; height: 100px;
+    float:right;
+}
+
+.block::before {
+    content: '';
+    position: absolute;
+    left: -30px;
+    top: 40px;
+    border: 10px solid transparent;
+    border-right: 20px solid #f7f7f7;
+}
+
+.block p {
+    color:#3070a8;
+
+}
+.info {
+    position: absolute;
+    border: 1px solid transparent;
+    border-bottom:1px dotted black;
+    width:92%;
+    padding-bottom: 10px;
+    margin-left: 13px;
+}
+
+.left {
+    float:left;
+    margin: 13px 0 0 0;
+}
+.right {
+    float:right;
+    margin: 13px 0 0 0;
+}

@@ -2,22 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>bs3ex</title>
-    <!— Latest compiled and minified CSS & JS —>
-    <link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap..">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jq.."></script>
+    <title>Title</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
-    <!— Latest compiled and minified JS —>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap..."></script>
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="taskhard.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="text.js"></script>
 
     <style>
         .block {
-            background-image: url(http://images.digopaul.com/wp-content/uploads/related..);
+            background-image: url('item1.png');
             color: white;
-            width: 50%;
+            width: 100%;
             height: 300px;
             margin: auto;
             position: relative;
+            background-repeat: no-repeat;
         }
         .block:hover:after {
             content: '';
@@ -47,9 +52,45 @@
                 width: 100%;
             }
         }
+
+        .heading {
+        .text-hide();
+        }
     </style>
 </head>
 <body>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="http://barsopolitan.narod.ru/mobile/pict/anim/15.gif" alt="">
+            <div class="carousel-caption">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda at commodi dolore
+                    doloremque eaque earum eos esse explicabo incidunt mollitia, neque odit, praesentium ratione
+                    similique suscipit tenetur, ullam voluptates.</p>
+            </div>
+        </div>
+        ...
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left">123123123123123</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
+<br><br><br><br><br>
+<h1 class="text-hide">Custom heading</h1>
+
 <div class="container">
     <div class="row bl text-center">
         <div class="col-lg-4 col-xs-12">

@@ -1,9 +1,19 @@
-body {margin:0;}
+html {
+  height:100%;
+}
+body {
+  margin: 0;
+  background-image: url('bgtop.png');
+  background-size: 100% 100%;
+  background-position: center center;
+  height: 100%;
+  background-repeat:no-repeat;
+  background: #ecf0f1;
+}
 /*Хедер*/
 .tiomenuspisok ul {
   list-style: none; 
-  margin-top: 0 auto;
-
+  margin-top: 0;
   
 }
 .tiomenuspisok a {
@@ -12,27 +22,26 @@ body {margin:0;}
 }
 
 header {
-  background: rgba(41, 128, 185, 0.5);
+  background: rgba(63, 107, 134, .5);
   width: 100%;
   position:fixed;
   z-index: 999;
+  line-height:60px;
 
 }
 
 #topmenu nav {
   display: block;
-  width: 1500px;
+  width: 100%;
   margin: 0 auto 0;
-
   
 }
 
 #topmenu ul {
   padding: 0;
   margin: auto;
-  /*background: rgba(63, 107, 134, 0);*/
+  background: rgba(63, 107, 134, 0);
   overflow: hidden;
-
 }
 
 #topmenu li {
@@ -42,7 +51,9 @@ header {
 }
 #topmenu .gotop {
   float:left;
+  font-weight:bold;
   margin-left:100px;
+  font-size: 50px;
 }
 
 
@@ -52,10 +63,7 @@ header {
   font-size:18px;
   color: #ffffff;
   font-weight: bold;
-  /*background: rgba(63, 107, 134, 0);*/
-
-  line-height: 100px;
-  vertical-align: middle;
+  background: rgba(63, 107, 134, 0);
 
 }
 
@@ -63,29 +71,42 @@ header {
   margin-right:110px;
 }
 
-#topmenu a:hover {
-    background: #eeeeee;
-    color:green;
-    text-decoration: none;}
+#topmenu a:hover {background: #eeeeee; color:black; text-decoration:none;}
+
+#homepage {
+  background-image: url('bgtop.png');
+  background-size: 100% 100%;
+  background-position: center center;
+  height:100%;
+  margin:0;
+}
 
 /*Первый блок страницы - Домашняя страница*/
-
-/*#homepage div{
-  /*height: 610px;*/
-  /*background-color: black;*/
-
-/*Шестиугольник*/
-#hexagon {
-	width: 100px;
-	height: 55px;
-	background: white;
-	position: relative;
-  margin: 90px auto ;
+#homepage img {
+  display: none;
+  z-index: -999;
+  width: 100%;
 }
-#hexagon:before {
+/*!*Шестиугольник*!*/
+.shest {
+  text-align: center;
+  padding-top:200px;
+}
+
+.hexagon {
+    display: inline-block;
+    width: 100px;
+    height: 62px;
+    background: white;
+    position: relative;
+    z-index: 500;
+    color:blue;
+    background: white;
+}
+.hexagon:before {
 	content: "";
 	position: absolute;
-	top: -25px; 
+	top: -25px;
 	left: 0;
 	width: 0;
 	height: 0;
@@ -93,10 +114,10 @@ header {
 	border-right: 50px solid transparent;
 	border-bottom: 25px solid white;
 }
-#hexagon:after {
+.hexagon:after {
 	content: "";
 	position: absolute;
-	bottom: -25px; 
+	bottom: -25px;
 	left: 0;
 	width: 0;
 	height: 0;
@@ -106,172 +127,301 @@ header {
 }
 
 /*текст в первом блоке - Домашняя Страница*/
-#homepage h1 {
-  text-align:center;
-  margin-top:-35px;
-  color:white;
-  font-size:48px;
+.title {
+  color:#ecf0f1;
+  font-size:56px;
   font-weight:bold;
+  padding-top:45px;
 }
-#homepage p {
+
+.shest p {
+  color:#ffffff;
+  font-size:15px;
+  padding-top:20px;
+}
+
+.servicetop h2 {
+  font-size:22px;
+  font-weight:700;
+  color:#2980b9;
   text-align:center;
-  color:gray;
-  width:500px;
-  margin: auto;
-  margin-bottom:40px;
-}
-
-/*кнопка в первом блоке*/
-.knowmore {
-  border:2px solid white;
-  border-radius:10px;
-  text-decoration: none;
-  font-family: '';
-  font-size: 18px;
-  color:white;
-  padding:7px 30px;
-  
-}
-
-
-/*второй блок страницы - Сервис*/
-
-#service {
-  /*background: white;*/
-  height:400px;
-  position:relative;
-}
-h2 {
-  text-align:center;
-  color:rgb(81, 130, 162);
-  margin:30px auto;
-  position:absolute;
-  font-size: 28px;
-  left:0;
-  right:0;
-  top:0;
-  bottom:0;
+  margin-top:64px;
+  margin-bottom:0;
 }
 hr {
+  text-align:center;
+  width:70px;
+  height:3px;
+  background: black;
+  margin-top:11px;
+}
+
+.block {
+  height:250px;
+  width:100%;
+}
+
+.centerblock {
+  margin-top:82px;
+}
+
+#portpholio {
+  background-image: url('bgportpholio.png');
+  background-size: 100% 100%;
+  background-position: center center;
+  height: 100%;
+  margin: 0;
+}
+
+.portpholiotop h2 {
+  font-size:22px;
+  font-weight:700;
+  color:#2980b9;
+  text-align:center;
+  margin-top:200px;
+  margin-bottom:0;
+}
+.portpholiotop hr {
+  text-align:center;
+  width:70px;
+  height:3px;
+  background: black;
+  margin-top:11px;
+}
+
+
+.nav a {
+  color:white;
+}
+
+.nav >li > a {
+  display: block;
+  padding: 15px 15px;
+  font-weight:bold;
+}
+
+
+.nav a:hover {
+  background: #ecf0f1;
+  padding:11px 25px;
+  border: 1px solid #ecf0f1;
+  border-radius: 6px;
+  text-decoration:none;
+  color:#2980b9;
+  font-weight:bold;
+  margin-left:-13px;
+  margin-right:-13px;
+}
+.nav a:visited {
+  color: green;
+}
+.tab-content {
+  color:white;
+
+}
+
+.s_portpholio ul {
+  margin:0;
+  padding-top:30px;
+  list-style-type: none;
+  text-align:center;
+}
+
+
+.s_portpholio li {
+  display:inline-block;
+  padding: 0 ;
+  margin-top:-10px;
+  margin-bottom:-10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  cursor:pointer;
+}
+
+.obertka {
+  border:1px solid white;
+  border-radius: 4px;
+
+}
+
+.potpholio_item {
+  display:none;
+}
+
+.portpholio_item img {
+  width:90%;
+  padding-top:10px;
+}
+
+.tab-pane div:nth-child(2) {
+  padding-top:20px;
+}
+
+.tab-pane div:nth-child(5) {
+  padding-top:-20px;
+}
+/*.active {*/
+  /*color:green;*/
+/*}*/
+/*#homepage p {*/
+  /*text-align:center;*/
+  /*color:gray;*/
+  /*width:500px;*/
+  /*margin: auto;*/
+  /*margin-bottom:40px;*/
+/*}*/
+
+/*!*кнопка в первом блоке*!*/
+/*.knowmore {*/
+  /*border:2px solid white;*/
+  /*border-radius:10px;*/
+  /*text-decoration: none;*/
+  /*font-family: '';*/
+  /*font-size: 18px;*/
+  /*color:white;*/
+  /*padding:7px 30px;*/
+  /**/
+/*}*/
+
+
+/*!*второй блок страницы - Сервис*!*/
+
+/*#service {*/
+  /*background: white;*/
+  /*height:400px;*/
+  /*position:relative;*/
+/*}*/
+/*h2 {*/
+  /*text-align:center;*/
+  /*color:rgb(81, 130, 162);*/
+  /*margin:30px auto;*/
+  /*position:absolute;*/
+  /*font-size: 28px;*/
+  /*left:0;*/
+  /*right:0;*/
+  /*top:0;*/
+  /*bottom:0;*/
+/*}*/
+/*hr {*/
   /*background: black;*/
-  height:1px;
-  position:absolute; 
-  left:0;
-  right:0;
-  top:0;
-  bottom:0;
-  margin: 65px auto;
-  width:55px;
-}
+  /*height:1px;*/
+  /*position:absolute; */
+  /*left:0;*/
+  /*right:0;*/
+  /*top:0;*/
+  /*bottom:0;*/
+  /*margin: 65px auto;*/
+  /*width:55px;*/
+/*}*/
 
-/*.serviceicon1 h3 {
-  text-align:center;
-  color:rgb(81, 130, 162);
-  margin:200px auto;
-  position:absolute;
-  font-size: 36px;
-  left:0;
-  right:0;
-  top:0;
-  bottom:0;
-}
+/*!*.serviceicon1 h3 {*/
+  /*text-align:center;*/
+  /*color:rgb(81, 130, 162);*/
+  /*margin:200px auto;*/
+  /*position:absolute;*/
+  /*font-size: 36px;*/
+  /*left:0;*/
+  /*right:0;*/
+  /*top:0;*/
+  /*bottom:0;*/
+/*}*/
 
-.serviceicon1 p{
-  text-align:center;
-  color:rgb(81, 130, 162);
-  margin:260px auto;
-  position:absolute;
-  font-size: 10px;
-  width:165px;
-  left:0;
-  right:0;
-  top:0;
-  bottom:0;
-}
+/*.serviceicon1 p{*/
+  /*text-align:center;*/
+  /*color:rgb(81, 130, 162);*/
+  /*margin:260px auto;*/
+  /*position:absolute;*/
+  /*font-size: 10px;*/
+  /*width:165px;*/
+  /*left:0;*/
+  /*right:0;*/
+  /*top:0;*/
+  /*bottom:0;*/
+/*}*/
 
-.serviceicon2 h3 {
-  text-align:center;
-  color:rgb(81, 130, 162);
-  margin:200px auto;
-  position:absolute;
-  font-size: 36px;
+/*.serviceicon2 h3 {*/
+  /*text-align:center;*/
+  /*color:rgb(81, 130, 162);*/
+  /*margin:200px auto;*/
+  /*position:absolute;*/
+  /*font-size: 36px;*/
 
-}
+/*}*/
 
-.serviceicon2 p{
-  text-align:center;
-  color:rgb(81, 130, 162);
-  margin:260px auto;
-  position:absolute;
-  font-size: 10px;
-  width:165px;
-  left:0;
-  right:0;
-  top:0;
-  bottom:0;
-}
+/*.serviceicon2 p{*/
+  /*text-align:center;*/
+  /*color:rgb(81, 130, 162);*/
+  /*margin:260px auto;*/
+  /*position:absolute;*/
+  /*font-size: 10px;*/
+  /*width:165px;*/
+  /*left:0;*/
+  /*right:0;*/
+  /*top:0;*/
+  /*bottom:0;*/
+/*}*/
 
-.serviceicon3 h3 {
-  text-align:center;
-  color:rgb(81, 130, 162);
-  margin:200px auto;
-  position:absolute;
-  font-size: 36px;
+/*.serviceicon3 h3 {*/
+  /*text-align:center;*/
+  /*color:rgb(81, 130, 162);*/
+  /*margin:200px auto;*/
+  /*position:absolute;*/
+  /*font-size: 36px;*/
 
-}
+/*}*/
 
-.serviceicon3 p{
-  text-align:center;
-  color:rgb(81, 130, 162);
-  margin:260px auto;
-  position:absolute;
-  font-size: 10px;
-  width:165px;
-  left:0;
-  right:0;
-  top:0;
-  bottom:0;
-}
-*/
-#service h3 {
-  text-align:center;
-  color:rgb(81, 130, 162);
-  margin:200px auto;
-  position:absolute;
-  font-size: 36px;
-}
-#servide p {
-  text-align:center;
-  color:rgb(81, 130, 162);
-  margin:260px auto;
-  position:absolute;
-  font-size: 10px;
-  width:165px;
-  left:0;
-  right:0;
-  top:0;
-  bottom:0;
-}
+/*.serviceicon3 p{*/
+  /*text-align:center;*/
+  /*color:rgb(81, 130, 162);*/
+  /*margin:260px auto;*/
+  /*position:absolute;*/
+  /*font-size: 10px;*/
+  /*width:165px;*/
+  /*left:0;*/
+  /*right:0;*/
+  /*top:0;*/
+  /*bottom:0;*/
+/*}*/
+/**!*/
+/*#service h3 {*/
+  /*text-align:center;*/
+  /*color:rgb(81, 130, 162);*/
+  /*margin:200px auto;*/
+  /*position:absolute;*/
+  /*font-size: 36px;*/
+/*}*/
+/*#servide p {*/
+  /*text-align:center;*/
+  /*color:rgb(81, 130, 162);*/
+  /*margin:260px auto;*/
+  /*position:absolute;*/
+  /*font-size: 10px;*/
+  /*width:165px;*/
+  /*left:0;*/
+  /*right:0;*/
+  /*top:0;*/
+  /*bottom:0;*/
+/*}*/
 
-.serviceicon1, .serviceicon2 , .serviceicon3  {
-  font-size: 8px;
-  float:left;
-  margin:100px 1%;
-  position:relative;
-  background: blue;
-  height:300px;
-  width:200px;
-}
-/*третий блок страницы - Портфолио*/
-/*четвертый блок страницы - Команда*/
-/*пятый блок страницы - Офисы*/
-/*шестой блок страницы - Клиенты*/
-/*седьмой блок страницы - Контакты*/
-/*футер*/
+/*.serviceicon1, .serviceicon2 , .serviceicon3  {*/
+  /*font-size: 8px;*/
+  /*float:left;*/
+  /*margin:100px 1%;*/
+  /*position:relative;*/
+  /*background: blue;*/
+  /*height:300px;*/
+  /*width:200px;*/
+/*}*/
+/*!*третий блок страницы - Портфолио*!*/
+/*!*четвертый блок страницы - Команда*!*/
+/*!*пятый блок страницы - Офисы*!*/
+/*!*шестой блок страницы - Клиенты*!*/
+/*!*седьмой блок страницы - Контакты*!*/
+/*!*футер*!*/
 
 
 
-/*div { 
-background: black;
-height: 300px;
+/*!*div { */
+/*background: black;*/
+/*height: 300px;*/
 }
