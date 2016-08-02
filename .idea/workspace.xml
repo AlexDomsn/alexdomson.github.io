@@ -2,23 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0521fa55-d473-4050-8748-0f55c2321993" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson6/bgtask2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson6/bgtask5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson6/face1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/slider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson6/task1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson6/task1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson6/task2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson6/task2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/bgoffices.png" afterPath="$PROJECT_DIR$/bootstrap/bgoffices.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/bgportpholio.png" afterPath="$PROJECT_DIR$/bootstrap/bgportpholio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/bgform.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/bgoffices.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/bgportpholio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/bgtop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/carusel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/cl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/cl8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/code.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/contact1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/contact11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/contact2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/contact3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/contact4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/footerarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/footertop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/footgotop1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/footgotop2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/headerarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/idea.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/item1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/item2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/item3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/item4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/item5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/item6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/pen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/ph1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/ph2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/ph3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/ph4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/team1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/team2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/team3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/img/team4.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/bgoffices.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/bgportpholio.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/bgtop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/code.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/idea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/item1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/pen.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/hometask.html" afterPath="$PROJECT_DIR$/bootstrap/hometask.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/taskhard.css" afterPath="$PROJECT_DIR$/bootstrap/taskhard.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/taskhardbs.html" afterPath="$PROJECT_DIR$/bootstrap/taskhardbs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taskhard.css" afterPath="$PROJECT_DIR$/taskhard.css" />
     </list>
     <ignored path="les.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,11 +70,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="hometask.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="hometask.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bootstrap/hometask.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="515" column="21" selection-start-line="503" selection-start-column="16" selection-end-line="515" selection-end-column="21" />
+            <state relative-caret-position="1536">
+              <caret line="705" column="9" selection-start-line="705" selection-start-column="9" selection-end-line="705" selection-end-column="9" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -51,11 +82,7 @@
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -64,48 +91,8 @@
       <file leaf-file-name="taskhard.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bootstrap/taskhard.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="357" column="1" selection-start-line="333" selection-start-column="1" selection-end-line="357" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson6/task1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task2.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lesson6/task2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task2.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson6/task2.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="87" column="18" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task1.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson6/task1.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1020">
-              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            <state relative-caret-position="173">
+              <caret line="560" column="14" selection-start-line="560" selection-start-column="14" selection-end-line="560" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -114,8 +101,8 @@
       <file leaf-file-name="Carousel Template for Bootstrap.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/textkarusel/Carousel Template for Bootstrap.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
-              <caret line="116" column="12" selection-start-line="79" selection-start-column="6" selection-end-line="116" selection-end-column="12" />
+            <state relative-caret-position="287">
+              <caret line="106" column="33" selection-start-line="106" selection-start-column="33" selection-end-line="106" selection-end-column="33" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -149,12 +136,12 @@
         <option value="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/bootstrap/taskhardbs.html" />
         <option value="$PROJECT_DIR$/bootstrap/slider.js" />
-        <option value="$PROJECT_DIR$/bootstrap/hometask.html" />
-        <option value="$PROJECT_DIR$/bootstrap/taskhard.css" />
         <option value="$PROJECT_DIR$/lesson6/task1.html" />
         <option value="$PROJECT_DIR$/lesson6/task1.css" />
         <option value="$PROJECT_DIR$/lesson6/task2.html" />
         <option value="$PROJECT_DIR$/lesson6/task2.css" />
+        <option value="$PROJECT_DIR$/bootstrap/hometask.html" />
+        <option value="$PROJECT_DIR$/bootstrap/taskhard.css" />
       </list>
     </option>
   </component>
@@ -220,31 +207,17 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="lesson6">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="les">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="lesson3">
+            <PATH_ELEMENT USER_OBJECT="bootstrap">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,7 +225,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="last_opened_file_path" value="D:/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="D:/Git/alexdomson.github.io" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -359,7 +332,8 @@
       <workItem from="1469853087124" duration="15248000" />
       <workItem from="1469942608632" duration="21657000" />
       <workItem from="1469976514154" duration="21934000" />
-      <workItem from="1470056352426" duration="8402000" />
+      <workItem from="1470056352426" duration="9068000" />
+      <workItem from="1470117150186" duration="10785000" />
     </task>
     <task id="LOCAL-00001" summary="дуыы">
       <created>1469200112509</created>
@@ -424,11 +398,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469816501958</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="lesson 6">
+      <created>1470065819498</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1470065819499</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125128000" />
+    <option name="totallyTimeSpent" value="136579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1168" height="840" extended-state="6" />
@@ -436,8 +417,8 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1699115" sideWeight="0.49371633" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22206506" sideWeight="0.53893805" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22206506" sideWeight="0.46106195" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23055163" sideWeight="0.5424779" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23055163" sideWeight="0.45752212" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24690266" sideWeight="0.4950495" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1699115" sideWeight="0.50628364" order="2" side_tool="true" content_ui="tabs" />
@@ -489,7 +470,8 @@
     <MESSAGE value="lesson3" />
     <MESSAGE value="hardless" />
     <MESSAGE value="bs" />
-    <option name="LAST_COMMIT_MESSAGE" value="bs" />
+    <MESSAGE value="lesson 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -550,11 +532,7 @@
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -613,11 +591,7 @@
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -661,11 +635,7 @@
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -702,11 +672,7 @@
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -837,16 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/textkarusel/Carousel Template for Bootstrap.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="116" column="12" selection-start-line="79" selection-start-column="6" selection-end-line="116" selection-end-column="12" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson3/task5.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -868,45 +824,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson6/task1.css">
+    <entry file="file://$PROJECT_DIR$/lesson6/task2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1020">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        <state relative-caret-position="258">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/taskhard.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="357" column="1" selection-start-line="333" selection-start-column="1" selection-end-line="357" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/hometask.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="515" column="21" selection-start-line="503" selection-start-column="16" selection-end-line="515" selection-end-column="21" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson6/task1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="7" />
           <folding />
         </state>
@@ -920,11 +848,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson6/task2.html">
+    <entry file="file://$PROJECT_DIR$/lesson6/task1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        <state relative-caret-position="17">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textkarusel/Carousel Template for Bootstrap.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="106" column="33" selection-start-line="106" selection-start-column="33" selection-end-line="106" selection-end-column="33" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/taskhard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="560" column="14" selection-start-line="560" selection-start-column="14" selection-end-line="560" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/hometask.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1536">
+          <caret line="705" column="9" selection-start-line="705" selection-start-column="9" selection-end-line="705" selection-end-column="9" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
