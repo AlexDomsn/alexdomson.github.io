@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>task3</title>
+</head>
+<body>
+<script>
+    var str = prompt('Введите значение');
+    function checkSpam(str){
+        if (str.length  <= 20)
+        {
+            alert(str);
+        }
+        else {
+            alert(str.substr(0,20) + "...");
+
+        }
+    }
+    checkSpam(str);
+
+</script>
+</body>
+</html>

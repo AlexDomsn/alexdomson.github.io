@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<script>
+    var str = prompt('Введите значение');
+    str = str.toLowerCase();
+    function checkSpam(str){
+        if (str.indexOf('sex') >= 0 || str.indexOf('spam') >=0)
+        {
+            alert('true');
+        }
+        else {
+            alert('falce')
+        }
+    }
+    checkSpam(str);
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JStask1</title>
+</head>
+<body>
+<script>
+    var f_name = prompt('Введите имя', '');
+    if (f_name == 'admin') {
+        var pass = prompt('Введите пароль', '');
+        if (pass == 'passw0rd') {
+            alert('Welcome home!');
+        }
+        else if(pass == null) {
+            alert('cancelled'); }
+        else {
+            alert('Wrong password');
+        }
+    }
+    else if(f_name == null) {
+        alert('cancelled');
+    }
+    else { alert('Access denied '); }
+</script>
+</body>
+</html>
