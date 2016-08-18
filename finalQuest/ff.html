@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="styleff.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="jsff.js"></script>
+    <title>Title</title>
+    <script>
+        $(document).ready(function() {
+
+            $("#btn").click(function() {
+                $.getJSON("echo.json", function(data) {
+                    alert(data.values);
+                });
+            });
+        });
+
+    </script>
+</head>
+<body>
+<div class="conteiner">
+    <div class="row">
+        <div class="col-md-2 col-md-offset-1 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 ">
+
+        </div>
+        <div class="col-md-2 col-md-offset-1 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 no-margin">
+
+        </div>
+        <div class="col-md-2 col-md-offset-1 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 no-margin">
+
+        </div>
+        <div class="col-md-2 col-md-offset-1 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 no-margin">
+
+        </div>
+        <div class="col-md-2 col-md-offset-1 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 no-margin">
+
+        </div>
+    </div>
+</div>
+<button id="btn">Кнопка</button>
+</body>
+</html>
