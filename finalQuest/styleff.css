@@ -1,0 +1,63 @@
+body {
+    background: #000;
+}
+.table {
+    text-align: center;
+    border-collapse: inherit;
+    border: 3px solid;
+    border-radius: 2px;
+    border-color: rgba(130, 130, 130, .5);
+    vertical-align: middle;
+    color:white;
+    font-weight:500;
+    background: #000;
+}
+.table td {
+    border: 3px solid;
+    border-color: rgba(130, 130, 130, .5);
+}
+.thd {
+    color:white;
+    font-weight:900;
+    font-size:16px;
+}
+
+caption {
+    text-align: center;
+    font-size:28px;
+    font-weight:800;
+
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+a:hover {
+    text-decoration: none;
+    color:blue;
+}
+
+#page-preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    z-index: 100500;
+}
+
+#page-preloader .spinner {
+    display: block;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 1000px;
+    background: #34495E url(http://hello-site.ru//main/images/preloads/spinning-circles.svg) center center no-repeat;
+    margin: -16px 0 0 -16px;
+    background-size:41px;
+}

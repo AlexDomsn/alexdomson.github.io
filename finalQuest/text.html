@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="styleff.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="jsff.js"></script>
+    <title>Title</title>
+
+</head>
+    <body>
+    <div id="page-preloader"><span class="spinner"></span></div>
+    <script>
+        $(window).on('load', function () {
+            var $preloader = $('#page-preloader'),
+                    $spinner   = $preloader.find('.spinner');
+            $spinner.fadeOut();
+            $preloader.delay(350).fadeOut('slow');
+        });
+    </script>
+    <div id="table" class="container">
+        <script>
+            function cellCounter(){
+                var tr = document.getElementsByTagName('spc').item(0).getElementsByTagName('tr').length;
+            }
+            window.onload=cellCounter;
+        </script>
+        <table id="users" class="table spc" >
+            <tr>
+
+                <td class="thd" onclick="sort(this)" title="Нажмите на заголовок, чтобы отсортировать колонку">Имя</td>
+
+                <td class="thd" onclick="sort(this)" title="Нажмите на заголовок, чтобы отсортировать колонку">Фамилия</td>
+
+                <td class="thd" onclick="sort(this)" title="Нажмите на заголовок, чтобы отсортировать колонку">Дата рождения</td>
+
+                <td class="thd" onclick="sort(this)" title="Нажмите на заголовок, чтобы отсортировать колонку">Телефон</td>
+
+                <td class="thd" onclick="sort(this)" title="Нажмите на заголовок, чтобы отсортировать колонку">Адрес</td>
+
+            </tr>
+        </table>
+    </div>
+        <script>
+            $(function(){
+                $.getJSON('echo.json', function(data) {
+                    for(var i=0;i<data.values.length;i++){
+                        $('#users').append('<tr><td>' + data.values[i].name.v + '</td>' +
+                                '<td>' + data.values[i].firstName.v + '</td>' +
+                                '<td>' + data.values[i].birthDate.v + '</td>' +
+                                '<td><a href="tel:'+ data.values[i].tel.v + '" class="ng-binding">' + data.values[i].tel.v + '</a></td>' +
+                                '<td><a target="_blank"  href="http://maps.google.com/?q=' + data.values[i].address.v + '">'  + data.values[i].address.v + '</a></td></tr>');
+                        $('.spc').append('<caption>' + data.values.length + '</caption>')
+                    }
+                });
+            });
+
+            function sort(el) {
+                var col_sort = el.innerHTML;
+                var tr = el.parentNode;
+                var table = tr.parentNode;
+                var td, arrow, col_sort_num;
+
+                for (var i=0; (td = tr.getElementsByTagName("td").item(i)); i++) {
+                    if (td.innerHTML == col_sort) {
+                        col_sort_num = i;
+                        if (td.prevsort == "y"){
+                            arrow = td.firstChild;
+                            el.up = Number(!el.up);
+                        }else{
+                            td.prevsort = "y";
+                            arrow = td.insertBefore(document.createElement("span"),td.firstChild);
+                            el.up = 0;
+                        }
+                        arrow.innerHTML = el.up?"↑ ":"↓ ";
+                    }else{
+                        if (td.prevsort == "y"){
+                            td.prevsort = "n";
+                            if (td.firstChild) td.removeChild(td.firstChild);
+                        }
+                    }
+                }
+
+                var a = new Array();
+
+                for(i=1; i < table.rows.length; i++) {
+                    a[i-1] = new Array();
+                    a[i-1][0]=table.rows[i].getElementsByTagName("td").item(col_sort_num).innerHTML;
+                    a[i-1][1]=table.rows[i];
+                }
+
+                a.sort();
+                if(el.up) a.reverse();
+
+                for(i=0; i < a.length; i++)
+                    table.appendChild(a[i][1]);
+            }
+        </script>
+
+    </body>
+</html>
