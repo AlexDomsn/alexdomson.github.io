@@ -8,11 +8,6 @@ $(window).on('load', function () {
 
 
 function getAge(birthStr) {
-    //
-    // var year = parseInt(birthStr.substr(0, 4))
-    // var age = new Date().getFullYear() - year
-    // return age
-
     var year=parseInt(birthStr.substr(0, 4));
     var month=parseInt(birthStr.substr(5, 2))-1;
     var day=parseInt(birthStr.substr(8, 2));
